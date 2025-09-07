@@ -1,0 +1,32 @@
+{
+  "name": "paul-kuipers",
+  "version": "1.0.0",
+  "description": "Website for Paul Kuipers",
+  "homepage": "https://github.com/FlipLucky/paul-kuipers#readme",
+  "bugs": {
+    "url": "https://github.com/FlipLucky/paul-kuipers/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FlipLucky/paul-kuipers.git"
+  },
+  "license": "UNLICENSED",
+  "author": "Bas Noblesse",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "dependencies": {
+    "babel-preset-solid": "^1.9.9",
+    "solid-js": "^1.9.9",
+    "vite": "^7.1.4",
+    "vite-plugin-solid": "^2.11.8"
+  },
+  "devDependencies": {
+    "sass": "^1.92.1"
+  }
+}
